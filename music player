@@ -35,3 +35,98 @@
 
 </body>
 </html>
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Player Card */
+.player {
+  width: 320px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+  text-align: center;
+}
+
+/* Album Art */
+.album img {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 1rem;
+}
+
+/* Song Info */
+.info h3 {
+  font-size: 1.2rem;
+  color: #111827;
+}
+
+.info p {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 1.2rem;
+}
+
+/* Progress */
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  width: 35%;
+  height: 100%;
+  background: #6366f1;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #374151;
+}
+
+.controls .play {
+  background: #6366f1;
+  color: white;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  font-size: 1.4rem;
+}
+
